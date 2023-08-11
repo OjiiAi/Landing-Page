@@ -9,6 +9,7 @@
   */
   * {
     margin: 0;
+    font-family: 'Roboto', 'sans-seriff';
   }
   /*
     Typographic tweaks!
@@ -77,3 +78,38 @@
     text-decoration: none;
     color: #f9faf8;
   }
+
+  .header {
+    background-color: #1f2937;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px; 
+  }
+
+  .header img {
+    height: 250px;
+    width: 400px;
+  }
+
+  h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8
+  }
+
+  .home p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+  }
+
+  .home button {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    padding: 0 28px;
+  }
+
