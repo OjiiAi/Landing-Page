@@ -167,3 +167,41 @@
     font-weight: bold;
   }
 
+  .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+  }
+
+  .reg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 50px 300px;
+    border-radius: 8px;
+    flex: 1;
+  } 
+
+  .registration {
+    flex: 1;
+    color: white;
+  }
+
+  .su {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 5px 38px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 35px;
+    color: white;
+  }
